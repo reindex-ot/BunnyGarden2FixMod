@@ -7,8 +7,10 @@
 </div>
 
 A BepInEx 5 mod for [Bunny Garden 2](https://store.steampowered.com/app/3443820/2/) that fixes the resolution, lets you change the frame rate cap, and more.
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b4e45f40-5420-4811-8500-4a0c3b4d1e69" />
-<img width="1920" height="1000" alt="screenshot" src="https://github.com/user-attachments/assets/f6c86e6b-2ad5-4b5f-bfa8-6ff66fcaf43b" />
+
+
+![Screenshot1](docs/images/screenshot1.webp)
+![Screenshot2](docs/images/screenshot2.webp)
 
 ## Supported versions (as of mod v1.0.11)
 - Supports game versions 1.0.5 and 1.0.6
@@ -30,9 +32,11 @@ A BepInEx 5 mod for [Bunny Garden 2](https://store.steampowered.com/app/3443820/
 
 The mod's own UI (F9 settings panel, Costume Changer, etc.) automatically follows the game's language setting (Japanese / English / Simplified Chinese / Traditional Chinese). See [Translations](#translations-localization) below to add more languages.
 
-## How to install (Steam Deck supported too)
+## How to install (Steam Deck supported)
 1. Download the latest zip from [Releases](https://github.com/kazumasa200/BunnyGarden2FixMod/releases/latest). (something like `BunnyGarden2FixMod_v1.0.6.1_BepInEx5.zip`) Note that some browsers may block it.<br>Use the latest version available at the time of installing.
-<img width="983" height="709" alt="image" src="https://github.com/user-attachments/assets/1ce21405-2b6b-47b4-a32f-d9fce95f76c5" />
+
+
+![Screenshot3](docs/images/screenshot3.webp)
 
 The image above is an example for v1.0.6.1. Choose the latest version at the time of installing.
 > [!NOTE]
@@ -42,18 +46,26 @@ The image above is an example for v1.0.6.1. Choose the latest version at the tim
 2. Download [BepInEx 5](https://github.com/bepinex/bepinex/releases). On both Windows and Steam Deck, download ```BepInEx_win_x64_{version}.zip```.
 
 3. Extract the entire contents of the BepInEx 5 zip into the directory that contains the game's exe. Don't forget the loose files in addition to the folders. In other words, the game's exe, the BepInEx folder, doorstop_config, etc. should all be at the same level.
-<img width="1535" height="1069" alt="image" src="https://github.com/user-attachments/assets/3a1985df-6f79-4c7d-9a66-31ca5ffa312a" />
+
+
+![Screenshot4](docs/images/screenshot4.webp)
 
 4. (Steam Deck only) In Steam, right-click Bunny Garden 2 → "Properties" → "General" → "Launch Options", and enter ```WINEDLLOVERRIDES="winhttp=n,b" %command%```.
 
 5. After launching the game once from the Steam Play button, extract the zip you downloaded from [Releases](https://github.com/kazumasa200/BunnyGarden2FixMod/releases/latest) and put the ```net.noeleve.BunnyGarden2FixMod.dll``` inside it into the Plugins folder within the BepInEx folder.
-<img width="1490" height="383" alt="image" src="https://github.com/user-attachments/assets/f24310e1-c5f1-4a08-9195-b25d0fe37377" />
+
+
+![Screenshot5](docs/images/screenshot5.webp)
 
 > [!IMPORTANT]
 > Put it **inside the `BepInEx/plugins/` folder**, not directly under `BepInEx/`.
 
 6. Launch again and a config file ```net.noeleve.BunnyGarden2FixMod.cfg``` will be created in the config folder inside the BepInEx folder. Edit it with a text editor like Notepad to configure the resolution, frame rate, and so on.
-<img width="1677" height="1906" alt="image" src="https://github.com/user-attachments/assets/d8cdc40e-7299-46f4-bbf0-ba5d685c38c9" />
+
+
+![Screenshot6](docs/images/screenshot6.webp)
+
+
 The image above is just an example. Configure it to your liking.
 
 
