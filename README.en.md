@@ -220,5 +220,5 @@ Please check the [Issues](https://github.com/kazumasa200/BunnyGarden2FixMod/issu
 When requesting something, please create a separate issue from "New Issue" in the top right.
 
 ## Contact
-X (formerly Twitter): @kazumasa200
+X (formerly Twitter): [@kazumasa200](https://x.com/kazumasa200)
 Feel free to use this mod for live streaming, screenshots, and video recording. However, please follow the game's own guidelines. Credit is not required.
