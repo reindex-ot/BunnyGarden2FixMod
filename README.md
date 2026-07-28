@@ -33,7 +33,7 @@
 MOD 独自の UI（F9 設定パネル・衣装チェンジャー等）は、ゲームの言語設定（日本語／英語／簡体字／繁体字）に自動で追従します。言語の追加は下記「[翻訳（多言語対応）](#翻訳多言語対応)」を参照してください。
 
 ## 導入方法(Steam Deckも対応)
-1. [Releases](https://github.com/kazumasa200/BunnyGarden2FixMod/releases/latest)から最新のzipファイルをダウンロードする。(BunnyGarden2FixMod_v1.0.6.1_BepInEx5.zipみたいな感じ)ブラウザによってはブロックするかもしれないので注意。<br>導入時の最新バージョンを入れてください。
+1. [Releases](https://github.com/kazumasa200/BunnyGarden2FixMod/releases/latest)から最新のzipファイルをダウンロードする。(BunnyGarden2FixMod_v1.0.6.1_BepInEx5.zipみたいな感じ)ブラウザーによってはブロックするかもしれないので注意。<br>導入時の最新バージョンを入れてください。
 
 
 ![Screenshot3](docs/images/screenshot3.webp)
@@ -52,7 +52,7 @@ MOD 独自の UI（F9 設定パネル・衣装チェンジャー等）は、ゲ�
 
 4. (Steam Deckの場合のみ実行) Steamでバニーガーデン2 → 右クリック → 「プロパティ」→「一般」→「起動オプション」に```WINEDLLOVERRIDES="winhttp=n,b" %command%```を入力。
 
-5. 一度Steamのプレイボタンからゲームを起動した後、[Releases](https://github.com/kazumasa200/BunnyGarden2FixMod/releases/latest)からダウンロードしたZipを展開し、中にある```net.noeleve.BunnyGarden2FixMod.dll```をBepinExフォルダー内のPluginsの中へ入れる。
+5. 一度Steamのプレイボタンからゲームを起動した後、[Releases](https://github.com/kazumasa200/BunnyGarden2FixMod/releases/latest)からダウンロードしたZipを展開し、中にある```net.noeleve.BunnyGarden2FixMod.dll```をBepinExフォルダー内のpluginsフォルダーへ入れる。
 
 
 ![Screenshot5](docs/images/screenshot5.webp)
