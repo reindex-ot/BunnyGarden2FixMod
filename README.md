@@ -220,5 +220,5 @@ dotnet test BunnyGarden2FixMod.Tests/BunnyGarden2FixMod.Tests.csproj
 要望の際は右上のNew Issueから個別のissueを作ってください。
 
 ## お問い合わせ
-X(旧Twitter):@kazumasa200  
+X(旧Twitter):[@kazumasa200](https://x.com/kazumasa200)  
 このModを導入してのライブ配信、スクショ、動画撮影はご自由にどうぞ。ただし、ゲーム自体のガイドラインに従ってください。また、クレジット表記も不要です。
