@@ -34,7 +34,9 @@ MOD 独自の UI（F9 設定パネル・衣装チェンジャー等）は、ゲ�
 
 ## 導入方法(Steam Deckも対応)
 1. [Releases](https://github.com/kazumasa200/BunnyGarden2FixMod/releases/latest)から最新のzipファイルをダウンロードする。(BunnyGarden2FixMod_v1.0.6.1_BepInEx5.zipみたいな感じ)ブラウザによってはブロックするかもしれないので注意。<br>導入時の最新バージョンを入れてください。
-<img width="983" height="709" alt="image" src="https://github.com/user-attachments/assets/1ce21405-2b6b-47b4-a32f-d9fce95f76c5" />
+
+
+![Screenshot3](docs/images/screenshot3.webp)
 
 上の画像はv1.0.6.1の場合の例です。導入時の最新バージョンを選択してください。  
 > [!NOTE]
@@ -43,19 +45,27 @@ MOD 独自の UI（F9 設定パネル・衣装チェンジャー等）は、ゲ�
 
 2. [BepInEx5](https://github.com/bepinex/bepinex/releases)をダウンロードする。Windowsの場合もSteam Deckの場合も```BepInEx_win_x64_{バージョン名}.zip```をダウンロードする。
 
-3. ゲームのexeがあるディレクトリにBepInEx5のZipの中身を全て展開。フォルダ以外のファイルもお忘れなく。つまり、ゲームのexeとBepInExフォルダやdoorstop_configとかが同じ階層にある状態が正しいということ。
-<img width="1535" height="1069" alt="image" src="https://github.com/user-attachments/assets/3a1985df-6f79-4c7d-9a66-31ca5ffa312a" />  
+3. ゲームのexeがあるディレクトリにBepInEx5のZipの中身をすべて展開。フォルダー以外のファイルもお忘れなく。つまり、ゲームのexeとBepInExフォルダーやdoorstop_configとかが同じ階層にある状態が正しいということ。
+
+
+![Screenshot4](docs/images/screenshot4.webp) 
 
 4. (Steam Deckの場合のみ実行) Steamでバニーガーデン2 → 右クリック → 「プロパティ」→「一般」→「起動オプション」に```WINEDLLOVERRIDES="winhttp=n,b" %command%```を入力。
 
-5. 一度Steamのプレイボタンからゲームを起動した後、[Releases](https://github.com/kazumasa200/BunnyGarden2FixMod/releases/latest)からダウンロードしたZipを展開し、中にある```net.noeleve.BunnyGarden2FixMod.dll```をBepinExフォルダの中のPluginsの中に入れる。
-<img width="1490" height="383" alt="image" src="https://github.com/user-attachments/assets/f24310e1-c5f1-4a08-9195-b25d0fe37377" />
+5. 一度Steamのプレイボタンからゲームを起動した後、[Releases](https://github.com/kazumasa200/BunnyGarden2FixMod/releases/latest)からダウンロードしたZipを展開し、中にある```net.noeleve.BunnyGarden2FixMod.dll```をBepinExフォルダー内のPluginsの中へ入れる。
+
+
+![Screenshot5](docs/images/screenshot5.webp)
 
 > [!IMPORTANT]
-> `BepInEx/` の直下ではなく、**`BepInEx/plugins/` フォルダの中**に入れてください。
+> `BepInEx/` の直下ではなく、**`BepInEx/plugins/` フォルダーの中**に入れてください。
 
-6. もう一度起動するとBepinExフォルダの中のconfigフォルダに```net.noeleve.BunnyGarden2FixMod.cfg```設定ファイルが出来上がるので、それをメモ帳などで変更して解像度の設定やフレームレートなどの設定をする。
-<img width="1677" height="1906" alt="image" src="https://github.com/user-attachments/assets/d8cdc40e-7299-46f4-bbf0-ba5d685c38c9" />
+6. もう一度起動するとBepinExフォルダー内のconfigフォルダーに```net.noeleve.BunnyGarden2FixMod.cfg```設定ファイルが出来上がるので、それをメモ帳などで変更して解像度の設定やフレームレートなどの設定をする。
+
+
+![Screenshot6](docs/images/screenshot6.webp)
+
+
 上の画像は例です。お好みにどうぞ。
 
 
